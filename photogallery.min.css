@@ -1,0 +1,24 @@
+/*
+The MIT License (MIT)
+
+Copyright (c) 2015 Qvcool
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+.photo-gallery{width:auto;height:480px;padding:0;overflow:hidden;background:#333;position:relative}.photo-gallery a.nav{border:0;padding:0;margin:-16.5px 0 0;display:block;background-repeat:no-repeat;width:39px;height:33px;position:absolute;top:50%;transition:background-position .2s;cursor:pointer}.photo-gallery a.nav.left{left:12px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wcMEywoxa65jwAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAAqUlEQVRYw83YwQrDMAwDUGnsv8u+3LuE3UacWtpkyLH4EZrYDuCJWqsVTwegql4AQLIAcPcBXYBPAvLa5Xk4Ad2gE9DZBRViBFAgxoApQgKYIGSAuwgp4A5CDjhFWAAnCBugi7ACOgg7YIf4CeC4gDkAx4i1M6VGxP8TMacj5p6IuTFjakdMFY3pJ2I6q5geM6bbjpk7xhDlGMiV8G9j4Lep/DLl0L9PvAEHKJWjr3jBPQAAAABJRU5ErkJggg==) 6px 0}.photo-gallery a.nav.right{right:12px;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAhCAYAAABX5MJvAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wcMEywvW8osLAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAArklEQVRYw+WYOw7AIAxDbdR7Vz15uqBOHUhw6qFIjIgn5+MAsL5ibvk6VgEi4gIAkgGASghmAJ5D5KkEGZVDEyq+VOJVDaUizAnQA8J8JPQgrKWEFqRKLwXZiaUMZDezJSCKhrMNoup6WyBKDyiDSI2oCqKGKIGMBgjOC3tdtKLEr3LCXh32PmHvmHbvsLuofZ6wT1b2GdM+bdvfHa0AZQNTv0XT4VADpEuz63/iBlBplaO/PftEAAAAAElFTkSuQmCC)}.photo-gallery a.nav.left:hover{background-position:0 0}.photo-gallery a.nav.right:hover{right:12px;background-position:6px 0}.photo-gallery div.slide{border:0;padding:0;margin:0;position:absolute;background-position:center;width:100%;height:100%}.photo-gallery div.slide.size-cover{-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}.photo-gallery div.slide.size-contain{-webkit-background-size:contain;-moz-background-size:contain;-o-background-size:contain;background-size:contain;background-repeat:no-repeat}.photo-gallery div.slide div.caption{background:rgba(0,0,0,.5);color:#fff;padding:6px 12px;position:absolute;left:0;bottom:0;right:0}
