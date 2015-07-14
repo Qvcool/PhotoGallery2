@@ -37,6 +37,9 @@ To navigate to a slide, execute `.PhotoGallery()` on the element with the argume
 
 **To be implemented:** To move to a specific tile instantly, you can enter `{currentSlide: [slide]}` as the argument.
 
+## Titles and captions
+You can give any slide a title (tooltip text) or caption by giving the `<img>` element the `title` and `data-caption` attributes.
+
 ## Configuration
 To configure settings when you initialize a photo gallery, add a an object literal into the first function argument, and place any of [the settings](#the-settings) into it, separated by commas. To configure them after you initialize, call `.PhotoGallery()` on the gallery element again, with an object literal containing any of [the same settings](#the-settings) in the argument. For example, if you wanted to disable `autoScroll`, you would execute this code:
 
@@ -80,6 +83,14 @@ The second argument will give you the index of the slide that it scrolled to, be
 
 ## More customization
 You can customize other options with methods of you choosing, such as a different gallery background color for the contained slides, with a bit of code on your behalf. To keep the framework light and basic, I did not include them, but you can easily do it by piecing together features of PhotoGallery 2. It's versatile, like a good framework should be.
+
+### Width and height
+You can adjust the width and height of the gallery with CSS.
+
+    .photo-gallery {
+      width: 800px;
+      height: 600px;
+    }
 
 ##License
 PhotoGallery is licensed under the [MIT License](https://github.com/Qvcool/PhotoGallery2/blob/master/LICENSE). A summary (that is not a substitute for the license) is that you must keep a comment with the license in all versions of the code, whether it is modified or not, and that you may share, sell, and modify the code freely.
