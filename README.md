@@ -38,7 +38,7 @@ To navigate to a slide, execute `.PhotoGallery()` on the element with the argume
 **To be implemented:** To move to a specific tile instantly, you can enter `{currentSlide: [slide]}` as the argument.
 
 ## Titles and captions
-You can give any slide a title (tooltip text) or caption by giving the `<img>` element the `title` and `data-caption` attributes.
+You can give any slide a title (tooltip text) or caption by giving the `<img>` element the `title` or `data-caption` attributes.
 
 ## Configuration
 To configure settings when you initialize a photo gallery, add a an object literal into the first function argument, and place any of [the settings](#the-settings) into it, separated by commas. To configure them after you initialize, call `.PhotoGallery()` on the gallery element again, with an object literal containing any of [the same settings](#the-settings) in the argument. For example, if you wanted to disable `autoScroll`, you would execute this code:
