@@ -82,4 +82,4 @@ The second argument will give you the index of the slide that it scrolled to, be
 You can customize other options with methods of you choosing, such as a different gallery background color for the contained slides, with a bit of code on your behalf. To keep the framework light and basic, I did not include them, but you can easily do it by piecing together features of PhotoGallery 2. It's versatile, like a good framework should be.
 
 ##License
-PhotoGallery is licensed under the [MIT License](https://github.com/Qvcool/PhotoGallery2/blob/master/LICENSE).
+PhotoGallery is licensed under the [MIT License](https://github.com/Qvcool/PhotoGallery2/blob/master/LICENSE). A summary (that is not a substitute for the license) is that you must keep a comment with the license in all versions of the code, whether it is modified or not, and that you may share, sell, and modify the code freely.
