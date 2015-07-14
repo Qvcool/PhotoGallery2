@@ -1,5 +1,5 @@
 # PhotoGallery 2
-A very lightweight jQuery plugin that is used to create dynamic, easy-to-use photo galleries.
+A very lightweight jQuery plugin that is used to create dynamic, easy-to-use photo galleries based off of [PhotoGallery 1](https://github.com/Qvcool/PhotoGallery).
 ##<a href="http://qvcool.com/PhotoGallery2/">Demo<a/>
 ## Pros
 - Lightweight (7.87KB minfied)
